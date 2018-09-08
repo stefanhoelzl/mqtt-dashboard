@@ -1,0 +1,6 @@
+stylesheets:
+  - https://unpkg.com/element-ui/lib/theme-chalk/index.css
+scripts:
+  - https://unpkg.com/element-ui/lib/index.js
+  - https://unpkg.com/vue-mqtt@2.0.2/dist/build.js
+  - https://unpkg.com/vue-grid-layout@2.1.13/dist/vue-grid-layout.min.js
