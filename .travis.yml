@@ -1,0 +1,17 @@
+language: python
+os:
+  - linux
+python:
+  - "3.6"
+install:
+  - make env
+script:
+  - make ci
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
+  local-dir: static
+  on:
+    branch: master
