@@ -1,0 +1,29 @@
+<html>
+<head>
+  <script src="_js/vue.js"></script>
+  <script src="_js/vuex.js"></script>
+  <script src="_js/brython_dist.js"></script>
+
+  
+  <link rel="stylesheet" media="screen" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  
+
+  
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  
+    <script src="https://unpkg.com/vue-mqtt@2.0.2/dist/build.js"></script>
+  
+    <script src="https://unpkg.com/vue-grid-layout@2.1.13/dist/vue-grid-layout.min.js"></script>
+  
+</head>
+<body onload="brython(0);">
+  
+
+  <div id="app">
+    <img style="display: block; margin: auto;"
+         src="loading.gif"
+         height="50%">
+  </div>
+  <script type="text/python" src="app.py"></script>
+</body>
+</html>
