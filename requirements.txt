@@ -1,4 +1,4 @@
 # activate for development to use local repository
 # -e file:../vue.py#egg=vuepy
 
-vuepy==0.1.0
+vuepy==0.1.1
