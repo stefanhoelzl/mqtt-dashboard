@@ -1,4 +1,4 @@
 # activate for development to use local repository
-# file:../vue.py#egg=vuepy
+# -e file:../vue.py#egg=vuepy
 
-https://stefanhoelzl.github.io/vue.py/vuepy.tar.gz
+vuepy==0.1.0
